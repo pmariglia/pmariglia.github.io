@@ -1,0 +1,24 @@
+baseURL = 'https://pmariglia.github.io/'
+languageCode = 'en-us'
+title = 'pmariglia'
+theme = 'not-much'
+
+[params]
+theme = "dark"
+palette = "dracula"
+
+# Navigation
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 1
+
+  [[menu.main]]
+    identifier = "github"
+    name = "github"
+    title = "GitHub"
+    url = "https://github.com/pmariglia/"
+    weight = 4
