@@ -7,6 +7,11 @@ theme = 'not-much'
 theme = "dark"
 palette = "dracula"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 # Navigation
 [menu]
   [[menu.main]]

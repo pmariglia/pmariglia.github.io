@@ -121,34 +121,46 @@ kbd {
   font-weight: bold;
 }
 
-.post article h1::before {
-  content: "# ";
-  color: var(--secondary);
+.post article h1 {
+  font-family: 'Red Hat Mono', serif !important;
+  font-size: 2rem;
+  margin: 24px 0 10px 0;
+  font-weight: bold;
 }
 
-.post article h2::before {
-  content: "## ";
-  color: var(--secondary);
+.post article h2 {
+  font-family: 'Red Hat Mono', serif !important;
+  font-size: 1.75rem;
+  margin: 24px 0 10px 0;
+  font-weight: bold;
 }
 
-.post article h3::before {
-  content: "### ";
-  color: var(--secondary);
+.post article h3 {
+  font-family: 'Red Hat Mono', serif !important;
+  font-size: 1.2rem;
+  margin: 24px 0 10px 0;
+  font-weight: bold;
 }
 
-.post article h4::before {
-  content: "#### ";
-  color: var(--secondary);
+.post article h4 {
+  font-family: 'Red Hat Mono', serif !important;
+  font-size: 1.25rem;
+  margin: 24px 0 10px 0;
+  font-weight: bold;
 }
 
-.post article h5::before {
-  content: "###### ";
-  color: var(--secondary);
+.post article h5 {
+  font-family: 'Red Hat Mono', serif !important;
+  font-size: 1rem;
+  margin: 24px 0 10px 0;
+  font-weight: bold;
 }
 
-.post article h6::before {
-  content: "###### ";
-  color: var(--secondary);
+.post article h6 {
+  font-family: 'Red Hat Mono', serif !important;
+  font-size: 0.875rem;
+  margin: 24px 0 10px 0;
+  font-weight: bold;
 }
 
 .breadcrumb-item+.breadcrumb-item::before {
